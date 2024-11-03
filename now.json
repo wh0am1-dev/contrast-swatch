@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "contrast.now.sh",
+  "alias": "contrast-swatch.vercel.app",
   "public": true,
   "builds": [
     {
@@ -13,7 +13,7 @@
       "src": "/",
       "status": 302,
       "headers": {
-        "Location": "https://github.com/jxnblk/contrast-swatch"
+        "Location": "https://github.com/wh0am1-dev/contrast-swatch"
       },
       "continue": true
     },
