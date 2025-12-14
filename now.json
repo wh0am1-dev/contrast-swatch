@@ -10,14 +10,6 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "status": 302,
-      "headers": {
-        "Location": "https://github.com/wh0am1-dev/contrast-swatch"
-      },
-      "continue": true
-    },
-    {
       "src": "/(?<fg>[^/]+)/(?<bg>[^/]+)",
       "dest": "/index.js?foreground=$fg&background=$bg",
       "headers": {
