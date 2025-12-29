@@ -1,7 +1,7 @@
 
 [![][hero]][hero]
 
-[hero]: https://contrast.now.sh/cff/40f?size=256
+[hero]: https://contrast-swatch.vercel.app/cff/40f?size=256
 
 # Contrast Swatch
 
