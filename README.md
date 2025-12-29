@@ -1,4 +1,3 @@
-
 [![][hero]][hero]
 
 [hero]: https://contrast-swatch.vercel.app/cff/40f?size=256
@@ -11,29 +10,29 @@ Image microservice for color contrast information
 [![][b]][b]
 [![][c]][c]
 
-[a]: https://contrast.now.sh/bcf/409
-[b]: https://contrast.now.sh/98f/206
-[c]: https://contrast.now.sh/fff/40f
+[a]: https://contrast-swatch.vercel.app/bcf/409
+[b]: https://contrast-swatch.vercel.app/98f/206
+[c]: https://contrast-swatch.vercel.app/fff/40f
 
 ## Usage
 
 Contrast swatch images can be used in any place an image is rendered.
 The URL accepts a foreground and background color.
 
-[`https://contrast.now.sh/cff/40f`][example]
+[`https://contrast-swatch.vercel.app/cff/40f`][example]
 
-[example]: https://contrast.now.sh/cff/40f
+[example]: https://contrast-swatch.vercel.app/cff/40f
 
 **HTML**
 
 ```html
-<img src="https://contrast.now.sh/cff/07c" alt="color contrast indicator" />
+<img src="https://contrast-swatch.vercel.app/cff/07c" alt="color contrast indicator" />
 ```
 
 **Markdown**
 
 ```md
-![color contrast indicator](https://contrast.now.sh/cff/07c)
+![color contrast indicator](https://contrast-swatch.vercel.app/cff/07c)
 ```
 
 ## React
@@ -50,7 +49,7 @@ export default ({
 }) =>
   <img
     {...props}
-    src={`https://contrast.now.sh/${foreground}/${background}`}
+    src={`https://contrast-swatch.vercel.app/${foreground}/${background}`}
     alt='color contrast indicator'
   />
 ```
@@ -60,19 +59,19 @@ export default ({
 Compare two `rgb` values, or an `rgb` and a hex value:
 
 ```
-https://contrast.now.sh/rgb(204,255,255)/40f
+https://contrast-swatch.vercel.app/rgb(204,255,255)/40f
 ```
 
 [![][rgb]][rgb]
 
-[rgb]: https://contrast.now.sh/rgb(204,255,255)/40f
+[rgb]: https://contrast-swatch.vercel.app/rgb(204,255,255)/40f
 
 ## Customization
 
 Use URL queries to customize the styles.
 
 ```
-https://contrast.now.sh/cff/40f?width=256&height=96&fontSize=1.25
+https://contrast-swatch.vercel.app/cff/40f?width=256&height=96&fontSize=1.25
 ```
 
 **Pass/Fail Label**
@@ -80,52 +79,52 @@ https://contrast.now.sh/cff/40f?width=256&height=96&fontSize=1.25
 [![][pass]][pass]
 [![][fail]][fail]
 
-[pass]: https://contrast.now.sh/cff/40f?width=256&height=128&label=1
-[fail]: https://contrast.now.sh/a6f/40f?width=256&height=128&label=1
+[pass]: https://contrast-swatch.vercel.app/cff/40f?width=256&height=128&label=1
+[fail]: https://contrast-swatch.vercel.app/a6f/40f?width=256&height=128&label=1
 
 **Font Size**
 
 [![][smallfont]][smallfont]
 [![][largefont]][largefont]
 
-[smallfont]: https://contrast.now.sh/cff/40f?width=256&height=128&fontSize=0.5
-[largefont]: https://contrast.now.sh/cff/40f?width=256&height=128&fontSize=2
+[smallfont]: https://contrast-swatch.vercel.app/cff/40f?width=256&height=128&fontSize=0.5
+[largefont]: https://contrast-swatch.vercel.app/cff/40f?width=256&height=128&fontSize=2
 
 **Size**
 
 [![][large]][large]
 [![][small]][small]
 
-[large]: https://contrast.now.sh/cff/40f?size=320
-[small]: https://contrast.now.sh/cff/40f?size=48
+[large]: https://contrast-swatch.vercel.app/cff/40f?size=320
+[small]: https://contrast-swatch.vercel.app/cff/40f?size=48
 
 **Width & Height**
 
 [![][wide]][wide]
 [![][tall]][tall]
 
-[wide]: https://contrast.now.sh/cff/40f?width=256&height=48
-[tall]: https://contrast.now.sh/cff/40f?width=32&height=48
+[wide]: https://contrast-swatch.vercel.app/cff/40f?width=256&height=48
+[tall]: https://contrast-swatch.vercel.app/cff/40f?width=32&height=48
 
 **Custom Text**
 
 [![][text]][text]
 
-[text]: https://contrast.now.sh/cff/40f?width=256&text=Aa
+[text]: https://contrast-swatch.vercel.app/cff/40f?width=256&text=Aa
 
 **Font Weight**
 
 [![][weight]][weight]
 
-[weight]: https://contrast.now.sh/cff/40f?fontWeight=900&width=256
+[weight]: https://contrast-swatch.vercel.app/cff/40f?fontWeight=900&width=256
 
 **Radius**
 
 [![][rounded]][rounded]
 [![][circle]][circle]
 
-[rounded]: https://contrast.now.sh/cff/40f?radius=8
-[circle]: https://contrast.now.sh/cff/40f?radius=48
+[rounded]: https://contrast-swatch.vercel.app/cff/40f?radius=8
+[circle]: https://contrast-swatch.vercel.app/cff/40f?radius=48
 
 ## Options
 
@@ -147,7 +146,7 @@ Option | Description
 A JSON response with color contrast information can be fetched by adding the `type=json` query to the URL.
 
 ```
-https://contrast.now.sh/cff/40f?type=json
+https://contrast-swatch.vercel.app/cff/40f?type=json
 ```
 
 **Note:** the returned JSON schema might change in a future version
